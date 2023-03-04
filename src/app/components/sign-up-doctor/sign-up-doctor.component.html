@@ -1,0 +1,81 @@
+<div class="container-md">
+    <h3 class="text-black-50">Enter your personal info</h3>
+    <p class="text-black-50">This is your personal account information, you will be prompted next for your clinic/hospital information.</p>
+  </div>
+  <form action="" class= "row container-md m-auto">
+      <div class="col-12 col-md-3 d-flex align-items-center justify-content-center">
+          <label class="inputFile d-flex flex-column justify-content-center align-items-center" for="formFile">
+            <i class="fa-solid fa-plus"></i>
+            <i class="fa-solid fa-camera-retro fs-2"></i>
+            <input class="d-none" type="file" id="formFile">
+          </label>
+        </div>
+        <div class="col-12 col-md-9 row g-3">
+          <div class="col-md-6 d-flex align-items-center">
+              <i class="fa-regular fa-user"></i>
+              <input type="text" class="form-control rounded-0" id="firstName" placeholder="First Name">
+            </div>
+          <div class="col-md-6">
+              <input type="text" class="form-control rounded-0" id="lasstName" placeholder="Last Name">
+            </div>
+            <div class="col-12 d-flex align-items-center">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <input type="text" class="form-control rounded-0" id="inputAddress" placeholder="Phone Number">
+            </div>
+            <div class="col-12 d-flex align-items-center">
+              <i class="fa-solid fa-stethoscope"></i>
+              <select id="inputState" class="form-select speciality rounded-0">
+                <option disabled selected>speciality</option>
+                     <option> Dermatology (Skin)</option>
+                     <option> Dentistry (Teeth)</option>
+                     <option> Psychiatry (Mental, Emotional or Behavioral Disorders)</option>
+                     <option> Pediatrics and New Born (Child)</option>
+                     <option> Neurology (Brain & Nerves)</option>
+                     <option> Orthopedics (Bones)</option>
+                     <option> Gynaecology and Infertioptionty</option>
+                     <option> Ear, Nose and Throat</option>
+                     <option> Cardiology and Vascular Disease (Heart)</option>
+                     <option> Allergy and Immunology (Sensitivity and Immunity)</option>
+                     <option> Andrology and Male Infertioptionty</option>
+                     <option> Audiology</option>
+                     <option> Cardiology and Thoracic Surgery (Heart & Chest)</option>
+                     <option> Chest and Respiratory</option>
+                     <option> Diabetes and Endocrinology</option>
+                     <option> Diagnostic Radiology (Scan Centers)</option>
+                     <option> Dietitian and Nutrition</option>
+                     <option> Family Medicine</option>
+              </select>
+            </div>
+            <div class="col-12 d-flex align-items-center">
+              <i class="fa-solid fa-location-dot"></i>
+              <select id="inputState" class="form-select speciality rounded-0">
+                <option disabled selected>City</option>
+                <option>Cairo</option>
+                <option>Giza</option>
+                <option>Alexanderia</option>
+                <option>Qalyubia</option>
+                <option>Gharbya</option>
+                <option>Menofia</option>
+                <option>fayoum</option>
+                <option>Dakahlya</option>
+                <option>sharqia</option>
+                <option>aswan</option>
+                <option>Qena</option>
+                <option>luxor</option>
+                <option>Sohag</option>
+              </select>
+            </div>
+            <div class="col-12 d-flex align-items-center">
+              <i class="fa-regular fa-envelope"></i>
+              <input type="text" class="form-control rounded-0" id="inputAddress" placeholder="Email-Address">
+            </div>
+            <div class="col-12 d-flex align-items-center">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" class="form-control rounded-0" id="inputAddress" placeholder="Password">
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+              <button type="submit" class="btn btn-primary w-25">Sign up </button>
+            </div>
+            <p class="text-center mt-2">have already an account? <a href="/login.html">log in</a></p>
+        </div>          
+  </form>

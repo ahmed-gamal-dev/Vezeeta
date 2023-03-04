@@ -16,7 +16,6 @@ import { SignUpDoctorComponent } from './components/sign-up-doctor/sign-up-docto
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    // SignUpComponentComponent,
     SignInDoctorComponent,
     SignUpDoctorComponent
   ],

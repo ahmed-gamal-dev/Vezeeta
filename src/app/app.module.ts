@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { SignInDoctorComponent } from './components/sign-in-doctor/sign-in-doctor.component';
 import { SignUpDoctorComponent } from './components/sign-up-doctor/sign-up-doctor.component';
+import { OffersComponent } from './components/offers/offers.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { SignUpDoctorComponent } from './components/sign-up-doctor/sign-up-docto
     FooterComponent,
     HomeComponent,
     SignInDoctorComponent,
-    SignUpDoctorComponent
+    SignUpDoctorComponent,
+    OffersComponent
   ],
   imports: [
     BrowserModule,

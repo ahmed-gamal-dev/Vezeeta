@@ -6,6 +6,7 @@ import { PrivacyPolicyComponent } from './components/privacyPolicy/privacyPolicy
 import { SignInDoctorComponent } from './components/sign-in-doctor/sign-in-doctor.component';
 import { SignUpDoctorComponent } from './components/sign-up-doctor/sign-up-doctor.component';
 import { OffersComponent } from './components/offers/offers.component';
+import { SearchResultComponent } from './components/search-result/search-result.component';
 
 const routes: Routes = [
 
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'PrivatePolicy',component: PrivacyPolicyComponent },
   {path: 'SignInDoctor', component:SignInDoctorComponent},
   {path:'SignUpDoctor', component: SignUpDoctorComponent},
+  {path: 'searchResult', component:SearchResultComponent},
    {path:'Offers',component:OffersComponent}
 ];
 

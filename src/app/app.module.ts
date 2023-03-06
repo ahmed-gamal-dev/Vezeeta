@@ -12,6 +12,7 @@ import { OffersComponent } from './components/offers/offers.component';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { FormsModule } from '@angular/forms';
 // import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 // import { fas } from '@fortawesome/free-solid-svg-icons';
 
@@ -30,6 +31,7 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
     AppRoutingModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideFirestore(() => getFirestore()),
+    FormsModule
     // FontAwesomeModule,
   ],
   providers: [],

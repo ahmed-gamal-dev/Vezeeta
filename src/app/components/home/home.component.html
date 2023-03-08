@@ -104,11 +104,11 @@
                 <h5 class="text-black-50">or search by name</h5>
                 <div class="d-flex align-items-center">
                   <i class="me-2 fas fa-user-doctor"></i>
-                  <input type="text" placeholder="Doctor name">
+                  <input type="text" [(ngModel)]="doctorName" placeholder="Doctor name">
                 </div>
               </div>
 
-            <div class="searchh text-light fw-bold fs-5 text-center d-flex justify-content-center align-items-center" routerLink="/searchResult">
+            <div class="searchh text-light fw-bold fs-5 text-center d-flex justify-content-center align-items-center" routerLink="/searchResult" (onclick)="SearchDoctor()">
                 <i class="bi bi-search me-2"></i>
                 <span>search</span>
               </div>
